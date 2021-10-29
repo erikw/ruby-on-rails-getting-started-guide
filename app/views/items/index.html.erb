@@ -2,7 +2,7 @@
 <ul>
   <% @items.each do |item| %>
     <li>
-      <%= item.name %>: <%= item.description %>
+      <a href="/items/<%= item.id %>"><%= item.name %></a>: <%= item.description %>
     </li>
   <% end %>
 </ul>
