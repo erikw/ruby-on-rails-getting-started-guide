@@ -2,7 +2,7 @@
 <ul>
   <% @items.each do |item| %>
     <li>
-      <a href="/items/<%= item.id %>"><%= item.name %></a>: <%= item.description %>
+      <a href="<%= item_path(item) %>"><%= item.name %></a>: <%= item.description %>
     </li>
   <% end %>
 </ul>
