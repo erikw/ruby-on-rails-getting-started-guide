@@ -7,8 +7,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%# Commented out below to get around webpack error, as no CSS files are imported yet. https://stackoverflow.com/a/59162932/265508 %>
-    <%# javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
