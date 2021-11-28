@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Item < ApplicationRecord
+  include Visible
   has_many :comments
 
   validates :name, presence: true
