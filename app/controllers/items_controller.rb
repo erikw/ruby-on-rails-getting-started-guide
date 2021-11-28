@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class ItemsController < ApplicationController
+  http_basic_authenticate_with name: 'admin', password: 'secret', except: %i[index show]
+
   def index
     @items = Item.all
   end
