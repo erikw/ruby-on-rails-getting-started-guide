@@ -1,4 +1,5 @@
-# packmate-backend
+# Ruby On Rails - Getting Started Guide
+https://guides.rubyonrails.org/getting_started.html
 
 
 ## Livereload
